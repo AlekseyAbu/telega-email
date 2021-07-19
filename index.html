@@ -5,7 +5,239 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./style.css" rel="stylesheet">
+    <!-- <link href="./style.css" rel="stylesheet"> -->
+    <style>
+        .email{
+    max-width: 680px;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.fake{
+    width: 34px;
+}
+
+.header-title{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #292941;
+}
+
+.block{
+    padding: 40px 70px 30px;
+    max-width: 680px;
+}
+
+.title{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 165%;
+    color: #292941;
+    margin: 0;
+}
+
+.title-message{
+    margin-bottom: 55px;
+}
+
+.message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding: 0 0 21px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.image{
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+}
+
+.name{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #292941;
+    margin: 0 0 6px;
+}
+
+.text{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #292941;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.time{
+    position: absolute;
+    top: 6px;
+    right: 0;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #292941;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.button{
+    padding: 14px 25px;
+    background: #469BFC;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 13px;
+    margin: 25px auto 0 0;
+}
+
+.footer{
+    padding: 21px 0;
+    display: flex;
+    justify-content: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #292941;
+    opacity: 0.3;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.image-device{
+    width: 75px;
+    height: 75px;
+}
+
+.text-black{
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.block-enter{
+    padding: 40px 0 50px;
+}
+
+.device{
+    display: flex;
+    align-items: center;
+    margin: 35px auto 40px 0;
+}
+
+.model{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292941;
+    margin: 0 0 12px;
+}
+
+.time-enter{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #292941;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.text-link{
+    border-bottom: 0.5px solid black;
+}
+
+.block-auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-avatar{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    margin: 30px auto 25px;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.button-auth{
+    margin: 0 auto;
+}
+
+.carryover{
+    border: 1px solid black;
+    height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .block{
+        padding-top: 35px;
+    }
+    .title{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .title-message{
+        margin-bottom: 25px;
+    }
+    .text{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .image{
+        width: 40px;
+        height: 40px;
+    }
+    .name{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 4px;
+    }
+}
+    </style>
 </head>
 <body>
     <div class="email">
